@@ -1,0 +1,324 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Barlow Semi Condensed', sans-serif !important;
+  color: #5a5a5a;
+}
+
+.animsition {
+  padding-bottom: 4rem;
+}
+
+
+/* Navbar
+------------------------- */
+#mainNav {
+  background-color: rgba(0, 0, 0, 1) !important;
+}
+
+.navbar-brand{
+    color: white;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+.nav-link{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Headers
+------------------------- */
+
+#home-title{
+
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
+}
+
+
+#featuredWork{
+
+    padding-bottom: 1.5em;
+
+}
+
+
+/* Banner
+------------------------- */
+
+.bannerImg {
+  background-image: url('../img/temp-bg.jpg'), linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0% , rgba(0, 0, 0, 1) 100%);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center 65%;
+  height: 45vh;
+}
+
+.title {
+    font-size: 5em;
+    padding-top: 80px;
+    padding-bottom: 1em;
+
+
+}
+
+
+#sub-title{
+  
+  font-size:15px;
+  letter-spacing:1em;
+  padding-top:20px;
+  padding-bottom:10px;
+  
+}
+
+
+.primary-btn {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  display: inline-block;
+  letter-spacing: 0.2em;
+  font-size: 15px;
+  width: auto;
+  height: auto;
+  padding: 1em 2.5em;
+  border: 2px #fff solid;
+  color: #fff;
+  text-transform: uppercase;
+  transition: ease-in-out .33s;
+}
+
+.primary-btn:hover {
+  text-decoration: none;
+  background-color: #000;
+  border-color: #fff;
+  color: #000;
+}
+
+a.primary-btn:visited {
+  color: white;
+}
+
+.entry-title {
+  margin-top: 0;
+}
+
+.row {
+  margin-top: 2em;
+}
+
+
+
+
+
+/* About Banner
+------------------------- */
+
+.aboutBanner {
+  background-image: url('../img/temp-bg.jpg'), linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0% , rgba(0, 0, 0, 1) 100%);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center 65%;
+  height: 90vh;
+}
+
+.aboutTitle {
+  font-size: 3.5em;
+  padding-top: 20px;
+  margin: 0;
+  margin-bottom: 35px;
+
+}
+
+
+
+
+#about-container{
+
+    padding-bottom: 2em;
+
+}
+
+
+
+.about-btn {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    display: inline-block;
+    letter-spacing: 0.2em;
+    font-size: 15px;
+    width: auto;
+    height: auto;
+    padding: 1em 2.5em;
+
+    border: 2px #fff solid;
+    color: #fff;
+    text-transform: uppercase;
+    transition: ease-in-out .33s;
+}
+
+.about-btn:hover {
+    text-decoration: none;
+    background-color: #fff;
+    border-color: #fff;
+    color: #000;
+}
+
+a.about-btn:visited {
+    color: #fff;
+}
+
+.entry-title {
+    margin-top: 0;
+}
+
+.row {
+    margin-top: 2em;
+}
+
+
+
+#about-pic2{
+    width: 100%;
+    border-radius: 50%;
+
+}
+
+
+
+#contact-container{
+
+    padding-bottom: 2em;
+
+}
+
+
+/* Images
+------------------------- */
+
+
+img{
+
+    width: 100%;
+
+    padding-bottom: 2.5em;
+
+}
+
+
+#about-pic{
+    width: 100%;
+
+}
+
+
+
+
+
+
+i{
+
+    font-size: 5em;
+    display: inline-block;
+    padding: 20px;
+    color: black;
+
+}
+
+
+
+i:hover{
+    color: red;
+    text-decoration: none;
+	transition: color 0.1s ease-in-out;
+	transition: all 0.5s;
+}
+
+
+
+
+#about-heading{
+
+    padding-top: 1em;
+
+}
+
+
+
+
+
+
+/* Footer
+-------------------------------------------------- */
+
+
+.footer {
+
+
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    /* Sets the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px;
+    background-color: #000;
+}
+
+
+
+/* 
+=============================================
+Responsive
+=============================================
+*/
+@media screen and (max-width: 768px) {
+
+    #project-category{
+        font-size: 1.3em;
+    }
+
+    .bannerImg {
+      height: 50vh;
+    }
+
+    .title{
+        font-size: 3em;
+        padding-bottom: 1em;
+    }
+
+    #sub-title{
+        font-size: 1em;
+    }
+
+    .aboutBanner {
+      height: 115vh;
+    }
+
+    .aboutTitle {
+      font-size: 3em;
+      padding-top: 30px;
+      margin: 0;
+      margin-bottom: 35px;
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
