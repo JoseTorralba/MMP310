@@ -12,9 +12,11 @@ body {
   color: #5a5a5a;
 }
 
+/*
 .animsition {
   padding-bottom: 4rem;
 }
+*/
 
 
 /* Navbar
@@ -39,7 +41,7 @@ body {
 /* Headers
 ------------------------- */
 
-#home-title{
+#assignments{
 
     padding-top: 1.5em;
     padding-bottom: 0.5em;
@@ -53,7 +55,7 @@ body {
 }
 
 
-/* Banner
+/* Home Banner
 ------------------------- */
 
 .bannerImg {
@@ -118,87 +120,146 @@ a.primary-btn:visited {
 
 
 
-
-
-/* About Banner
+/* Assignments
 ------------------------- */
 
-.aboutBanner {
-  background-image: url('../img/temp-bg.jpg'), linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0% , rgba(0, 0, 0, 1) 100%);
-  background-blend-mode: multiply;
-  background-size: cover;
-  background-position: center 65%;
-  height: 90vh;
-}
 
-.aboutTitle {
-  font-size: 3.5em;
-  padding-top: 20px;
-  margin: 0;
-  margin-bottom: 35px;
+#homeworkAssignment:hover{
 
-}
-
-
-
-
-#about-container{
-
-    padding-bottom: 2em;
-
-}
-
-
-
-.about-btn {
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    display: inline-block;
-    letter-spacing: 0.2em;
-    font-size: 15px;
-    width: auto;
-    height: auto;
-    padding: 1em 2.5em;
-
-    border: 2px #fff solid;
-    color: #fff;
-    text-transform: uppercase;
+    opacity: 0.5;
     transition: ease-in-out .33s;
 }
 
-.about-btn:hover {
+
+#homeworkAssignment{
+
+    transition: ease-in-out .33s;
+}
+
+
+#assignments-hr{
+
+    border-bottom-color: red;
+
+}
+
+
+/* About
+------------------------- */
+
+.aboutBanner {
+    background-image: url('../img/temp-bg.jpg'), linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0% , rgba(0, 0, 0, 1) 100%);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center 65%;
+    height: 110vh;
+}
+
+.aboutTitle {
+    font-size: 3.5em;
+    padding-top: 20px;
+    margin: 0;
+    margin-bottom: 1.5em;
+
+}
+
+#about{
+
+    padding-top: .5em;
+
+}
+
+
+
+#contact{
+
+padding-top: 1em;
+
+}
+
+
+#eMail{
+
+
+    display: inline-block;
+    padding: 1em;
+    color: white;
+	transition: color 0.1s ease-in-out;
+	transition: all 0.5s;
+}
+
+
+
+#eMail:hover{
+    color: #D54B3D;
     text-decoration: none;
-    background-color: #fff;
-    border-color: #fff;
-    color: #000;
-}
-
-a.about-btn:visited {
-    color: #fff;
-}
-
-.entry-title {
-    margin-top: 0;
-}
-
-.row {
-    margin-top: 2em;
+	transition: color 0.1s ease-in-out;
+	transition: all 0.5s;
 }
 
 
+#gitHub{
 
-#about-pic2{
-    width: 100%;
-    border-radius: 50%;
 
+    display: inline-block;
+    padding: 1em;
+    color: white;
+	transition: color 0.1s ease-in-out;
+	transition: all 0.5s;
 }
 
 
 
-#contact-container{
-
-    padding-bottom: 2em;
-
+#gitHub:hover{
+    color: #773085;
+    text-decoration: none;
+	transition: color 0.1s ease-in-out;
+	transition: all 0.5s;
 }
+
+
+
+#linkedIn{
+
+
+    display: inline-block;
+    padding: 1em;
+    color: white;
+	transition: color 0.1s ease-in-out;
+	transition: all 0.5s;
+}
+
+
+
+#linkedIn:hover{
+    color: #1178B3;
+    text-decoration: none;
+	transition: color 0.1s ease-in-out;
+	transition: all 0.5s;
+}
+
+
+#instagram{
+
+
+    display: inline-block;
+    padding: 1em;
+    color: white;
+	transition: color 0.1s ease-in-out;
+	transition: all 0.5s;
+}
+
+
+
+#instagram:hover{
+    color: #CA4B6D;
+    text-decoration: none;
+	transition: color 0.1s ease-in-out;
+	transition: all 0.5s;
+}
+
+
+
 
 
 /* Images
@@ -209,47 +270,10 @@ img{
 
     width: 100%;
 
-    padding-bottom: 2.5em;
-
-}
-
-
-#about-pic{
-    width: 100%;
-
 }
 
 
 
-
-
-
-i{
-
-    font-size: 5em;
-    display: inline-block;
-    padding: 20px;
-    color: black;
-
-}
-
-
-
-i:hover{
-    color: red;
-    text-decoration: none;
-	transition: color 0.1s ease-in-out;
-	transition: all 0.5s;
-}
-
-
-
-
-#about-heading{
-
-    padding-top: 1em;
-
-}
 
 
 
@@ -259,9 +283,7 @@ i:hover{
 /* Footer
 -------------------------------------------------- */
 
-
 .footer {
-
 
     position: absolute;
     bottom: 0;
@@ -300,7 +322,7 @@ Responsive
     }
 
     .aboutBanner {
-      height: 115vh;
+      height: 200vh;
     }
 
     .aboutTitle {
@@ -311,14 +333,12 @@ Responsive
 
     }
 
+    img{
+    
+        padding-bottom: 1em;
+
+    }
+
+
 
 }
-
-
-
-
-
-
-
-
-
