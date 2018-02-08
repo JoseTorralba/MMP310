@@ -1,28 +1,19 @@
 /* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
-
+------------------------- */
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  font-family: 'Barlow Semi Condensed', sans-serif !important;
-  color: #5a5a5a;
+    font-family: 'Barlow Semi Condensed', sans-serif !important;
+    color: #5a5a5a;
 }
-
-/*
-.animsition {
-  padding-bottom: 4rem;
-}
-*/
-
 
 /* Navbar
 ------------------------- */
 #mainNav {
-  background-color: rgba(0, 0, 0, 1) !important;
+    background-color: rgba(0, 0, 0, 1) !important;
 }
 
 .navbar-brand{
@@ -38,157 +29,112 @@ body {
     letter-spacing: 2px;
 }
 
-/* Headers
-------------------------- */
-
-#assignments{
-
-    padding-top: 1.5em;
-    padding-bottom: 0.5em;
-}
-
-
-#featuredWork{
-
-    padding-bottom: 1.5em;
-
-}
-
-
 /* Home Banner
 ------------------------- */
-
 .bannerImg {
-  background-image: url('../img/temp-bg.jpg'), linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0% , rgba(0, 0, 0, 1) 100%);
-  background-blend-mode: multiply;
-  background-size: cover;
-  background-position: center 65%;
-  height: 45vh;
+    background-image: url('../img/coral-highlands.jpeg'), linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0% , rgba(0, 0, 0, 1) 100%);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center 65%;
+    height: 50vh;
 }
 
 .title {
     font-size: 5em;
     padding-top: 80px;
-    padding-bottom: 1em;
-
-
+    padding-bottom: 1em;    
 }
-
-
-#sub-title{
-  
-  font-size:15px;
-  letter-spacing:1em;
-  padding-top:20px;
-  padding-bottom:10px;
-  
-}
-
 
 .primary-btn {
-  font-family: 'Barlow Semi Condensed', sans-serif;
-  display: inline-block;
-  letter-spacing: 0.2em;
-  font-size: 15px;
-  width: auto;
-  height: auto;
-  padding: 1em 2.5em;
-  border: 2px #fff solid;
-  color: #fff;
-  text-transform: uppercase;
-  transition: ease-in-out .33s;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    display: inline-block;
+    letter-spacing: 0.2em;
+    font-size: 15px;
+    width: auto;
+    height: auto;
+    padding: 1em 2.5em;
+    border: 2px #fff solid;
+    color: #fff;
+    text-transform: uppercase;
+    transition: ease-in-out .33s;
 }
 
 .primary-btn:hover {
-  text-decoration: none;
-  background-color: #000;
-  border-color: #fff;
-  color: #000;
+    text-decoration: none;
+    background-color: #000;
+    border-color: #fff;
+    color: #000;
 }
 
 a.primary-btn:visited {
-  color: white;
-}
-
-.entry-title {
-  margin-top: 0;
+    color: white;
 }
 
 .row {
-  margin-top: 2em;
+    margin-top: 2em;
 }
 
-
-
-/* Assignments
+/* Assignments Section
 ------------------------- */
+#assignmentsContainer{
+    padding-bottom: 1.5em;
+}
 
+#assignments{
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
+}
+
+#colAssignments{
+    padding-bottom: 5em;
+}
+
+#homeworkAssignment{
+    transition: ease-in-out .33s;
+}
 
 #homeworkAssignment:hover{
-
     opacity: 0.5;
     transition: ease-in-out .33s;
 }
 
-
-#homeworkAssignment{
-
-    transition: ease-in-out .33s;
-}
-
-
 #assignments-hr{
-
     border-bottom-color: red;
-
 }
 
-
-/* About
+/* About Section
 ------------------------- */
-
 .aboutBanner {
-    background-image: url('../img/temp-bg.jpg'), linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0% , rgba(0, 0, 0, 1) 100%);
+    background-image: url('../img/everstream.jpeg'), linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0% , rgba(0, 0, 0, 1) 100%);
     background-blend-mode: multiply;
     background-size: cover;
     background-position: center 65%;
     height: 110vh;
 }
 
-.aboutTitle {
+#about{
+    padding-top: .5em;
     font-size: 3.5em;
     padding-top: 20px;
     margin: 0;
     margin-bottom: 1.5em;
-
 }
 
-#about{
-
-    padding-top: .5em;
-
+img{
+    width: 100%;
 }
-
-
 
 #contact{
-
-padding-top: 1em;
-
+    padding-top: 1em;
 }
 
-
 #eMail{
-
-
     display: inline-block;
     padding: 1em;
     color: white;
 	transition: color 0.1s ease-in-out;
 	transition: all 0.5s;
 }
-
-
 
 #eMail:hover{
     color: #D54B3D;
@@ -197,18 +143,13 @@ padding-top: 1em;
 	transition: all 0.5s;
 }
 
-
 #gitHub{
-
-
     display: inline-block;
     padding: 1em;
     color: white;
 	transition: color 0.1s ease-in-out;
 	transition: all 0.5s;
 }
-
-
 
 #gitHub:hover{
     color: #773085;
@@ -217,19 +158,13 @@ padding-top: 1em;
 	transition: all 0.5s;
 }
 
-
-
 #linkedIn{
-
-
     display: inline-block;
     padding: 1em;
     color: white;
 	transition: color 0.1s ease-in-out;
 	transition: all 0.5s;
 }
-
-
 
 #linkedIn:hover{
     color: #1178B3;
@@ -238,18 +173,13 @@ padding-top: 1em;
 	transition: all 0.5s;
 }
 
-
 #instagram{
-
-
     display: inline-block;
     padding: 1em;
     color: white;
 	transition: color 0.1s ease-in-out;
 	transition: all 0.5s;
 }
-
-
 
 #instagram:hover{
     color: #CA4B6D;
@@ -258,33 +188,9 @@ padding-top: 1em;
 	transition: all 0.5s;
 }
 
-
-
-
-
-/* Images
-------------------------- */
-
-
-img{
-
-    width: 100%;
-
-}
-
-
-
-
-
-
-
-
-
 /* Footer
--------------------------------------------------- */
-
+------------------------- */
 .footer {
-
     position: absolute;
     bottom: 0;
     text-align: center;
@@ -295,13 +201,8 @@ img{
     background-color: #000;
 }
 
-
-
-/* 
-=============================================
-Responsive
-=============================================
-*/
+/* Responsive
+------------------------- */
 @media screen and (max-width: 768px) {
 
     #project-category{
@@ -322,23 +223,17 @@ Responsive
     }
 
     .aboutBanner {
-      height: 200vh;
+        height: 220vh;
     }
 
     .aboutTitle {
-      font-size: 3em;
-      padding-top: 30px;
-      margin: 0;
-      margin-bottom: 35px;
-
+        font-size: 3em;
+        padding-top: 30px;
+        margin: 0;
+        margin-bottom: 35px;
     }
 
     img{
-    
         padding-bottom: 1em;
-
     }
-
-
-
 }
