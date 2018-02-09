@@ -4,7 +4,6 @@ $(".animsition").animsition();
 
 
 /* Scrolls You Back To Top of Page */
-
 $(window).scroll(function() {
     var height = $(window).scrollTop();
     if (height > 100) {
@@ -23,9 +22,6 @@ $(document).ready(function() {
 
 });
 
-
-
-/* Scrolls down to category in projects page */
 
 // Select all links with hashes
 $('a[href*="#"]')
