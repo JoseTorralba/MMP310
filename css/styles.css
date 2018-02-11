@@ -216,20 +216,20 @@ img{
         padding-top: 5em;
     }
 
-    .homeParallax{
-      background-image: url('../img/coral-highlands.jpeg'), linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0% , rgba(0, 0, 0, 1) 100%);
-      background-blend-mode: multiply;
-      background-size: cover;
-      background-position: center 65%;
-      height: 100vh;
+    #homeNonParallax{
+        background-image: url('../img/coral-highlands.jpeg'), linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0% , rgba(0, 0, 0, 1) 100%);
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center 65%;
+        height: 100vh;
     }
 
-    .aboutParallax{
-      background-image: url('../img/everstream.jpeg'), linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0% , rgba(0, 0, 0, 1) 100%);
-      background-blend-mode: multiply;
-      background-size: cover;
-      background-position: center 65%;
-      height: 225vh;
+    #aboutNonParallax{
+        background-image: url('../img/everstream.jpeg'), linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0% , rgba(0, 0, 0, 1) 100%);
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center 65%;
+        height: 225vh;
     }
 
     .title{
