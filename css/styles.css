@@ -35,7 +35,7 @@ body {
 .homeParallax { 
     background-image: url("../img/coral-highlands.jpeg"), linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0% , rgba(0, 0, 0, 1) 100%);
     background-blend-mode: multiply;
-    height: 50vh;
+    height: 100vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -44,11 +44,11 @@ body {
 
 .title {
     font-size: 5em;
-    padding-top: 80px;
+    padding-top: 3em;
     padding-bottom: 1em;    
 }
 
-.primary-btn {
+.home-button {
     font-family: 'Barlow Semi Condensed', sans-serif;
     display: inline-block;
     letter-spacing: 0.2em;
@@ -62,14 +62,14 @@ body {
     transition: ease-in-out .33s;
 }
 
-.primary-btn:hover {
+.home-button:hover {
     text-decoration: none;
     background-color: #000;
     border-color: #CFEC3A;
     color: #CFEC3A;
 }
 
-a.primary-btn:visited {
+a.home-button:visited {
     color: #fff;
 }
 
@@ -84,12 +84,24 @@ a.primary-btn:visited {
 }
 
 #assignments{
-    padding-top: 1.5em;
+    padding-top: 3em;
     padding-bottom: 0.5em;
 }
 
 #colAssignments{
     padding-bottom: 5em;
+}
+
+
+#assignments-hr{
+    border-bottom-color: red;
+    padding-bottom: 2em;
+}
+
+.assignment-title{
+
+    padding-bottom: 1.5em;
+
 }
 
 #homeworkAssignment{
@@ -101,16 +113,48 @@ a.primary-btn:visited {
     transition: ease-in-out .33s;
 }
 
-#assignments-hr{
-    border-bottom-color: red;
+.assignment-text{
+    padding-top: 1em;
+    padding-bottom: 1em;
+
 }
+
+.assignment-button {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    display: flex;
+    letter-spacing: 0.2em;
+    font-size: 15px;
+    width: 15em;
+    height: auto;
+    padding: 1em;
+    border: 2px #000 solid;
+    color: #000;
+    text-transform: uppercase;
+    transition: ease-in-out .33s;
+    justify-content: center;
+    align-items: center;
+}
+
+.assignment-button:hover {
+    text-decoration: none;
+    background-color: #000;
+    border-color: #CFEC3A;
+    color: #CFEC3A;
+}
+
+/*
+a.assignment-button:visited {
+    color: #CFEC3A;
+}
+*/
+
 
 /* About Section
 ------------------------- */
 .aboutParallax { 
     background-image: url("../img/everstream.jpeg"), linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0% , rgba(0, 0, 0, 1) 100%);
     background-blend-mode: multiply;
-    height: 110vh;
+    height: 120vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -118,11 +162,11 @@ a.primary-btn:visited {
 }
 
 #about{
-    padding-top: .5em;
+    padding-top: 1.5em;
+    padding-bottom: 0.3em;
     font-size: 3.5em;
-    padding-top: 20px;
     margin: 0;
-    margin-bottom: 1.5em;
+
 }
 
 img{
@@ -223,6 +267,18 @@ img{
         background-position: center 65%;
         height: 100vh;
     }
+
+    .assignment-title{
+
+        padding-bottom: 0.5em;
+
+    }
+
+    #assignments-hr{
+        border-bottom-color: red;
+        padding-bottom: 1em;
+    }
+
 
     #aboutNonParallax{
         background-image: url('../img/everstream.jpeg'), linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0% , rgba(0, 0, 0, 1) 100%);
