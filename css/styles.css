@@ -1,5 +1,6 @@
 /* Global Styles
 ------------------------- */
+
 html {
     position: relative;
     min-height: 100%;
@@ -8,22 +9,23 @@ html {
 body {
     font-family: 'Barlow Semi Condensed', sans-serif !important;
     color: #5a5a5a;
-    padding-top: 3em;
+    padding-top: 2em;
 }
 
 /* Navbar
 ------------------------- */
+
 #mainNav {
     background-color: rgba(0, 0, 0, 1) !important;
 }
 
-.navbar-brand{
+.navbar-brand {
     color: white;
     font-size: 22px;
     letter-spacing: 2px;
 }
 
-.nav-link{
+.nav-link {
     color: white;
     font-size: 18px;
     text-transform: uppercase;
@@ -32,8 +34,9 @@ body {
 
 /* Home Banner
 ------------------------- */
-.homeParallax { 
-    background-image: url("../img/coral-highlands.jpeg"), linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0% , rgba(0, 0, 0, 1) 100%);
+
+.homeParallax {
+    background-image: url("../img/wildspire-waste.jpeg"), linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 1) 100%);
     background-blend-mode: multiply;
     height: 100vh;
     background-attachment: fixed;
@@ -44,8 +47,18 @@ body {
 
 .title {
     font-size: 5em;
-    padding-top: 3em;
-    padding-bottom: 1em;    
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 2.5em;
+    padding-bottom: 20px;
+}
+
+.sub-title {
+    font-size: 2em;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    padding-bottom: 2em;
 }
 
 .home-button {
@@ -79,44 +92,45 @@ a.home-button:visited {
 
 /* Assignments Section
 ------------------------- */
-#assignmentsContainer{
+
+#assignmentsContainer {
     padding-bottom: 1.5em;
 }
 
-#assignments{
-    padding-top: 3em;
+#assignments {
+    padding-top: 2em;
     padding-bottom: 0.5em;
+    font-size: 3em;
+    font-weight: 300;
+    text-transform: uppercase;
 }
 
-#colAssignments{
+#colAssignments {
     padding-bottom: 5em;
 }
 
 
-#assignments-hr{
+#assignments-hr {
     border-bottom-color: red;
     padding-bottom: 2em;
 }
 
-.assignment-title{
-
+.assignment-title {
     padding-bottom: 1.5em;
-
 }
 
-#homeworkAssignment{
+#homeworkAssignment {
     transition: ease-in-out .33s;
 }
 
-#homeworkAssignment:hover{
+#homeworkAssignment:hover {
     opacity: 0.5;
     transition: ease-in-out .33s;
 }
 
-.assignment-text{
+.assignment-text {
     padding-top: 1em;
     padding-bottom: 1em;
-
 }
 
 .assignment-button {
@@ -148,103 +162,105 @@ a.assignment-button:visited {
 }
 */
 
-
 /* About Section
 ------------------------- */
-.aboutParallax { 
-    background-image: url("../img/everstream.jpeg"), linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0% , rgba(0, 0, 0, 1) 100%);
+
+.aboutParallax {
+    background-image: url("../img/coral-highlands.jpeg"), linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 1) 100%);
     background-blend-mode: multiply;
-    height: 120vh;
+    height: 110vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#about{
+#about {
     padding-top: 1.5em;
     padding-bottom: 0.3em;
     font-size: 3.5em;
+    font-weight: 300;
+    text-transform: uppercase;
     margin: 0;
 
 }
 
-img{
+img {
     width: 100%;
 }
 
-#contact{
+#contact {
     padding-top: 1em;
 }
 
-#eMail{
+#eMail {
     display: inline-block;
     padding: 1em;
     color: white;
-	transition: color 0.1s ease-in-out;
-	transition: all 0.5s;
+    transition: color 0.1s ease-in-out;
+    transition: all 0.5s;
 }
 
-#eMail:hover{
+#eMail:hover {
     color: #D54B3D;
     text-decoration: none;
-	transition: color 0.1s ease-in-out;
-	transition: all 0.5s;
+    transition: color 0.1s ease-in-out;
+    transition: all 0.5s;
 }
 
-#gitHub{
+#gitHub {
     display: inline-block;
     padding: 1em;
     color: white;
-	transition: color 0.1s ease-in-out;
-	transition: all 0.5s;
+    transition: color 0.1s ease-in-out;
+    transition: all 0.5s;
 }
 
-#gitHub:hover{
+#gitHub:hover {
     color: #773085;
     text-decoration: none;
-	transition: color 0.1s ease-in-out;
-	transition: all 0.5s;
+    transition: color 0.1s ease-in-out;
+    transition: all 0.5s;
 }
 
-#linkedIn{
+#linkedIn {
     display: inline-block;
     padding: 1em;
     color: white;
-	transition: color 0.1s ease-in-out;
-	transition: all 0.5s;
+    transition: color 0.1s ease-in-out;
+    transition: all 0.5s;
 }
 
-#linkedIn:hover{
+#linkedIn:hover {
     color: #1178B3;
     text-decoration: none;
-	transition: color 0.1s ease-in-out;
-	transition: all 0.5s;
+    transition: color 0.1s ease-in-out;
+    transition: all 0.5s;
 }
 
-#instagram{
+#instagram {
     display: inline-block;
     padding: 1em;
     color: white;
-	transition: color 0.1s ease-in-out;
-	transition: all 0.5s;
+    transition: color 0.1s ease-in-out;
+    transition: all 0.5s;
 }
 
-#instagram:hover{
+#instagram:hover {
     color: #CA4B6D;
     text-decoration: none;
-	transition: color 0.1s ease-in-out;
-	transition: all 0.5s;
+    transition: color 0.1s ease-in-out;
+    transition: all 0.5s;
 }
 
 /* Footer
 ------------------------- */
+
 .footer {
     position: absolute;
     bottom: 0;
     text-align: center;
     width: 100%;
-    /* Sets the fixed height of the footer here */
     height: 60px;
     line-height: 60px;
     background-color: #000;
@@ -252,48 +268,65 @@ img{
 
 /* Responsive stuff
 ------------------------- */
+
 /* Not fully responsive yet
 --------------------------- */
+
 @media screen and (max-width: 768px) {
 
-    .title{
-        padding-top: 5em;
+    .container {
+        width: 90%;
     }
 
-    #homeNonParallax{
-        background-image: url('../img/coral-highlands.jpeg'), linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0% , rgba(0, 0, 0, 1) 100%);
+    .title {
+        font-size: 3em;
+        text-transform: uppercase;
+        padding-top: 4em;
+    }
+
+    .title span {
+        display: none;
+    }
+
+    .title:after {
+        content: 'Multimedia Programming';
+    }
+
+    .sub-title {
+        font-size: 3em;
+        font-weight: 400;
+    }
+
+    .sub-title span {
+        display: none;
+    }
+
+    .sub-title:after {
+        content: 'II';
+    }
+
+    #homeNonParallax {
+        background-image: url('../img/coral-highlands.jpeg'), linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 1) 100%);
         background-blend-mode: multiply;
         background-size: cover;
         background-position: center 65%;
         height: 100vh;
     }
 
-    .assignment-title{
-
+    .assignment-title {
         padding-bottom: 0.5em;
 
     }
 
-    #assignments-hr{
-        border-bottom-color: red;
-        padding-bottom: 1em;
-    }
-
-
-    #aboutNonParallax{
-        background-image: url('../img/everstream.jpeg'), linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0% , rgba(0, 0, 0, 1) 100%);
+    #aboutNonParallax {
+        background-image: url('../img/everstream.jpeg'), linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 1) 100%);
         background-blend-mode: multiply;
         background-size: cover;
         background-position: center 65%;
-        height: 225vh;
+        height: 205vh;
     }
 
-    .title{
-        font-size: 3em;
-        padding-bottom: 1em;
-    }
-
-    img{
-        padding-bottom: 1em;
+    img {
+        padding-bottom: 1.5em;
     }
 }
