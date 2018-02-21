@@ -1,23 +1,45 @@
 // HTML Elements References
 const submitButton = document.getElementById("submit");
+
 const exclamationInput = document.getElementById("exclamation");
 const adverbInput = document.getElementById("adverb");
-const nouneInput = document.getElementById("noun");
+const nounInput = document.getElementById("noun");
 const adjectiveInput = document.getElementById("adjective");
 
 // Listen for Button Press
 submitButton.onclick = function() {
-    // Gets all of the Words to Generate Our Story
-    const message = document.createElement("p");
-    message.textContent = exclamationInput.value
-                            + " he said "
-                            + adjectiveInput.value
-                            + " as he jumped into his convertible"
-                            + nouneInput.value
-                            + " and drove off with his "
-                            + adjectiveInput.value
-                            + " wife."
-    document.body.appendChild(message);
+	/*
+		get all of the words, generate our story
+	*/
+	const message = document.createElement("p");
+	document.body.appendChild(message);
+	
+	
+	/*
+		use a conditional to test if value was inputed
+	*/
+	if (exclamationInput.value) {
+		message.textContent = exclamationInput.value
+							+ " he said "
+							+ adverbInput.value
+							+ " as he jumped into his convertible "
+							+ nounInput.value
+							+ " and drove off with his "
+							+ adjectiveInput.value
+							+ " wife."
+
+    } 
+    
+        if (adverbInput.value) {
+
+		message.textContent = "You forgot to add an Adverb!";
+
+    }else {
+		message.textContent = "You forgot to add an exclamation!";	
+	}
+	
 };
+
+
 
 
