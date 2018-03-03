@@ -1,0 +1,99 @@
+/* 768px - 1023px */
+@media only screen and (max-width: 1023px) {
+
+    header { background-attachment: scroll; }
+    .title {
+        font-size: 280%;
+        font-weight: 400;
+        text-transform: uppercase;
+        padding-top: 3em;
+    }
+
+    .title span { display: none; }
+
+    .title:after { content: 'Multimedia Programming'; }
+
+    .sub-title {
+        font-size: 260%;
+        font-weight: 400;
+    }
+
+    .sub-title span { display: none; }
+
+    .sub-title:after { content: 'II'; }
+
+    .col-md-4 {
+        width: 100%;
+        margin: 0 0 1% 0;
+    }
+
+    .about-section { background-attachment: scroll; }
+
+    .about-section h3 { margin-bottom: 90px; }
+    .assignments-section p {
+        font-size: 70%;
+        font-weight: 400;
+
+        margin-bottom: 15px;
+    }
+
+    .assignment-btn { width: 83%; }
+    .about-section img { width: 100%; }
+
+    .about-section p {
+        font-size: 100%;
+        line-height: 135%;
+    }
+}
+
+/* 481px - 767px */
+@media only screen and (max-width: 767px) {
+
+    .col-md-4 {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .first-row { margin-top: 70px; }
+    .assignments-section h3:after {
+        display: block;
+        height: 2px;
+        background-color: rgba(168, 168, 168, 0.65);
+        content: " ";
+        width: 150px;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+
+    .assignment-section img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .assignment-section p {
+        width: 100%;
+        float: left;
+
+    }
+
+    .assignment-btn {
+        width: 47%;
+        margin-top: 25px;
+        margin-bottom: 80px;
+    }
+
+    .about-section img {
+        width: 100%; 
+        margin-bottom: 30px;
+    }
+}
+
+/* 0px - 480px */
+@media only screen and (max-width: 480px) {
+    
+    .assignment-btn { width: 65%; }
+
+    .social-links {
+        font-size: 135%;
+    }
+}
