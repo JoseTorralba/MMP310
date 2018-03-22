@@ -83,14 +83,14 @@
     }
 
     .about-section img {
-        width: 100%; 
+        width: 100%;
         margin-bottom: 30px;
     }
 }
 
 /* 0px - 480px */
 @media only screen and (max-width: 480px) {
-    
+
     .assignment-btn { width: 65%; }
 
     .social-links {
