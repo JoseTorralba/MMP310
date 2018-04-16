@@ -6,7 +6,7 @@
         font-size: 280%;
         font-weight: 400;
         text-transform: uppercase;
-        padding-top: 3em;
+        padding-top: 5em;
     }
 
     .title span { display: none; }
@@ -51,6 +51,7 @@
 
 /* 481px - 767px */
 @media only screen and (max-width: 767px) {
+
 
     .col-md-4 {
         width: 90%;
