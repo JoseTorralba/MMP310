@@ -1,0 +1,27 @@
+// For Demo Pages
+.active-nav {color: $primary-color !important;}
+
+.secondary-underline {
+    &:after {
+        display: block;
+        height: 2px;
+        background-color: $primary-color;
+        content: " ";
+        width: 200px;
+        margin: 0 auto;
+        margin-top: .5rem;
+        margin-bottom: 1rem;
+    }
+}
+
+// Centers Text
+.text-center {text-align: center;}
+
+// Margins
+.margin-bottom-medium {margin-bottom: 6rem;}
+.margin-top-small {margin-bottom: 4rem;}
+.margin-top-medium {margin-bottom: 6rem;}
+
+// Text Color
+.white-text {color: $color-white !important;}
+.black-text {color: $color-black !important;}

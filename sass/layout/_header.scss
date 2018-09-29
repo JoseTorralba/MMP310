@@ -1,0 +1,25 @@
+// HEADER STYLES
+.header {
+    height: 100vh;
+
+    background-image: linear-gradient(
+        to bottom,
+        rgba($primary-color-light, 0.2),
+        rgba($color-black, 1)),
+    url(../img/coral-highlands.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    // Header Heading
+    &__text-box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        // fixes the whole thing I struggled with
+        width: 100%;
+    }
+}

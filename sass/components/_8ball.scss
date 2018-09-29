@@ -1,0 +1,44 @@
+// 8 BALL PAGE
+.eight-ball {
+    text-align: center;
+
+    // 8 Ball Input
+    &__input {
+        width: 50%;
+        padding: 2rem;
+        border-radius: 50rem;
+    }
+
+    // 8 Ball Text
+    &__text {
+        font-size: 2rem;
+        margin-top: 1.5rem;
+        backface-visibility: hidden;
+
+        &:not(:last-child) {
+            &::after {
+                margin: 0 auto;
+                display: block;
+                height: 2px;
+                background-color: $primary-color;
+                content: " ";
+                width: 200px;
+                margin-top: .8rem;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+
+    // 8 Ball IMG
+    &__img {
+        margin-top: 5rem;
+        width: 20%;
+        transition: all .3s;
+
+        &:hover {
+            cursor: pointer;
+            transform: rotate(360deg) scale(1.1);
+        }
+    }
+}
+

@@ -1,0 +1,49 @@
+// ASSIGNMENT BOX
+.assignment-box {
+    text-align: center;
+
+    // Assignment IMG
+    &__img {
+        width: 100%;
+        box-shadow: 0 1rem 2rem rgba($color-black, .20);
+        transition: all .3s;
+
+        &:hover {
+            transform: translateY(-1.1rem);
+            box-shadow: 0 1rem 2rem rgba($primary-color, .4);
+        }    
+    }
+
+    // Assignment Text
+    &__text {
+        font-size: 1.6rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+
+        @include respond(tablet-portrait) {
+            padding: 1rem 4rem;
+        }
+
+        @include respond(tablet-portrait) {
+            padding: 1rem;
+        }
+    }
+
+    // Assignment Link
+    &__link {
+        color: $primary-color-darker;
+        text-decoration: none;
+        transition: all .3s;
+
+        &:hover {
+            color: $primary-color;
+        }
+    }
+
+    @include respond(tablet-portrait) {
+        padding-bottom: 3rem;
+    }
+}
+
+
+

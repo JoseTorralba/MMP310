@@ -1,0 +1,47 @@
+// ABOUT SECTION
+.about {
+
+    // About IMG
+    &__img {
+        width: 100%;
+    }
+
+    // About Text
+    &__text {
+        font-size: 1.8rem;
+
+        &:not(:last-child) {
+            padding-bottom: 2rem;
+        }
+
+        // About Links
+        &-link {
+            text-decoration: none;
+            color: $primary-color-light;
+            transition: all .3s;
+
+            &:hover {
+                color: $primary-color-dark;
+                
+            }
+        }
+    }
+
+    // About Devicon Icons
+    &__devicon {
+        font-size: 6rem;
+
+        &:not(:last-child) {
+            padding-right: 2rem;
+        }
+
+        @include respond(tablet-portrait) {
+            text-align: center;
+        }
+
+        @include respond(phone) {
+            font-size: 5rem;
+        }
+    }
+}
+

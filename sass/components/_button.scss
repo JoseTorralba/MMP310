@@ -1,0 +1,45 @@
+// BUTTON STYLES
+.btn {
+    &:link,
+    &:visited {
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: .7rem 2.5rem;
+        display: inline-block;
+        border-radius: 5rem;
+        position: relative;
+
+        @include respond(tablet-portrait) {
+            font-size: 2rem;
+        }
+    }
+
+    // MAIN BUTTON
+    &--pink {
+        color: $color-white;
+        border: 1px solid $color-white;
+        transition: all .3s;
+
+
+        &:hover {
+            color: $color-black;
+            background-color: $primary-color-light;
+            
+        }
+    }
+
+    // ASSIGNMENT/DEMO BUTTONS
+    &--white {
+        color: $color-black;
+        border: 1px solid $color-black;
+        box-shadow: 0 1rem 2rem rgba($color-black, .10);
+        transition: all .3s;
+
+        &:hover {
+            color: $color-black;
+            background-color: $primary-color-light;
+            box-shadow: 0 1rem 2rem rgba($color-black, .15);
+        }
+    }
+}
